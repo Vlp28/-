@@ -75,6 +75,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(-
 .ultimas{color:#B4232F;font-weight:800;font-size:.8rem;margin-top:4px}
 .pic img{width:100%;height:100%;object-fit:cover}
 .buy.own{background:var(--ink);color:#fff}
+.buy.cartao{background:#fff;color:var(--ink)}
 .buy.soon{background:var(--line);color:var(--muted);border-color:var(--line);cursor:not-allowed}
 /* janela do Pix */
 .modal{position:fixed;inset:0;z-index:50;background:rgba(22,16,61,.65);display:grid;place-items:center;padding:16px;overflow:auto}
@@ -93,3 +94,11 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(-
 footer{background:var(--ink);color:var(--bg);padding:26px 0 32px;font-size:.9rem}
 footer b{font-family:"Bowlby One","Arial Black",sans-serif;font-size:1.4rem;font-weight:400;display:block;margin-bottom:6px}
 
+
+/* Escolha de opção no card (ex.: time do chaveiro) */
+.opc{display:block;margin-top:10px;font-weight:700;font-size:.9rem}
+.opc select{display:block;width:100%;margin-top:4px;padding:10px;border:2px solid var(--ink);border-radius:10px;font:inherit;font-weight:600;background:#fff;color:var(--ink)}
+.opc select.erro{border-color:#d4002a}
+.opc-erro{display:block;margin-top:4px;color:#d4002a;font-weight:700;font-size:.85rem}
+.opc-aviso{display:block;margin-top:8px;font-size:.82rem;color:var(--muted)}
+.opc-aviso a{color:var(--ink);font-weight:700}
